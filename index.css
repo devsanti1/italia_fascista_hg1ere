@@ -1,0 +1,50 @@
+section#sc1 {
+  background: url("/italia_fascista_hg1ere/assets/fascisti.png") no-repeat center center fixed;
+  background-size: cover;
+  filter: opacity(0.8);
+}
+
+section#sc2 {
+  background: url("/italia_fascista_hg1ere/assets/occupazione.png") no-repeat center center fixed;
+  background-size: cover;
+  filter: opacity(0.8);
+}
+
+section#sc4 {
+  background-color: black;
+}
+
+section#sc5 {
+  background-color: #8b0000;
+}
+
+section>.card {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+header {
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#fila3img>div>div>img,
+#photoMusso,
+#imgSym {
+  width: min-content;
+  max-height: 30vh;
+  max-width: 100%;
+}
+
+#photoMusso {
+  max-height: 50vh;
+}
+
+#imgSym {
+  max-height: 20vh;
+}
+
+.text-justify {
+  text-align: justify;
+}
