@@ -32,8 +32,11 @@ header {
 #fila3img>div>div>img,
 #photoMusso,
 #imgSym {
-  max-width: min-content !important;
   max-height: 30vh;
+  height: auto !important;
+  width: auto !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
 }
 
 #photoMusso {
